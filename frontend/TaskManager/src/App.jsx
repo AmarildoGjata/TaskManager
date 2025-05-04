@@ -35,7 +35,7 @@ import React, { useState, useEffect } from 'react';
          return (
            <div className="App">
              <h1>Task Manager</h1>
-             <form onSubmit={handleSubmit}>
+             < form onSubmit={handleSubmit}>
                <input
                  type="text"
                  placeholder="Task Title"
